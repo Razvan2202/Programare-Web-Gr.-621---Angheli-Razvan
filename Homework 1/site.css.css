@@ -1,0 +1,256 @@
+input {
+    margin: 10px;
+    padding: 3px;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+body {
+    background-image: url("pozatema.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Papyrus', fantasy;
+    margin: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-signUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(179, 143, 129);
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.title-signUp {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    font-size: 30px;
+}
+
+.username-signUp {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(209, 209, 178);
+}
+
+.password-signUp {
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(209, 209, 178);
+}
+
+.repeatPassword-signUp {
+    grid-column: 2;
+    grid-row: 5;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(209, 209, 178);
+}
+
+.staySignedIn-signUp {
+    grid-column: 2;
+    grid-row: 6;
+    text-align: right;
+    width: 130px;
+    position: relative;
+    bottom: 1%; 
+    padding-right: 250px;
+    top: 18%;
+}
+
+.button-signUp {
+    grid-column: 2;
+    grid-row: 6;
+    width: 120px;
+    height: 60px;
+    position: relative;
+    align-items: center;
+    font-size: xx-large;
+    top: 13%;
+    background-color: rgb(209, 209, 178);
+}
+
+.cantSignIn-signUp {
+    grid-column: 2;
+    grid-row: 7;
+    text-align: center;
+    padding-top: 60px;
+}
+
+/* PAGINA DE SIGN IN */
+
+.container-signIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(179, 143, 129);
+    width: 400px;
+    height: 450px;
+}
+
+.title-signIn {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    font-size: 30px;
+}
+
+.inputField-signin {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+}
+
+.username-signIn {
+    grid-column: 2;
+    grid-row: 3;
+    width: 300px;
+    height: 38px;
+    background-color: rgb(209, 209, 178);
+}
+
+.password-signIn {
+    grid-column: 2;
+    grid-row: 4;
+    width: 300px;
+    height: 38px;
+    background-color: rgb(209, 209, 178);
+}
+
+.staySignedIn-signIn {
+    grid-column: 2;
+    grid-row: 5;
+    text-align: right;
+    width: 150px;
+    position: relative;
+    bottom: 1%; 
+    padding-right: 250px;
+    top: 1%;
+}
+
+.button-signIn {
+    grid-column: 2;
+    grid-row: 6;
+    width: 120px;
+    height: 60px;
+    position: relative;
+    align-items: center;
+    font-size: xx-large;
+    top: 13%;
+    background-color:rgb(209, 209, 178);
+}
+
+.cantSignIn-signIn {
+    grid-column: 2;
+    grid-row: 7;
+    text-align: center;
+    padding-top: 60px;
+}
+
+/*PAGINA DE AJUTOR */
+
+.container-cantSignIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 750px;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.title-CantSignIn{
+    font-size: 100px;
+    color: lightsalmon;
+}
+
+.subtitle-CantSignIn {
+    font-size: 30px;
+    color: lightsalmon;
+}
+
+.casuteAlbe {
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    padding-top: 50px;
+}
+
+.casutaUsername {
+    background-color: rgb(179, 143, 129);
+    width: 260px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.casutaPassword {
+    background-color: rgb(179, 143, 129);
+    width: 260px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.casutaEmail {
+    background-color: rgb(179, 143, 129);
+    width: 260px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.lostUsername {
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.subtxt.lUsername {
+    font-size: 15px;
+}
+
+.lostPassword {
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.subtxt.lPassword {
+    font-size: 15px;
+}
+
+.lostEmail {
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.subtxt.lEmail {
+    font-size: 15px;
+}
